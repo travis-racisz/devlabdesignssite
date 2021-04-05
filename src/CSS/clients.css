@@ -1,0 +1,76 @@
+.meet-our-clients-container{
+
+    
+}
+
+.meet-our-clients-title{ 
+    color: #394d55;
+    font-weight: 700;
+    font-style: normal; 
+    padding-top: 20px;
+}
+
+.angels-image{ 
+    height: 40%;
+    width: 100%;
+    margin: 0 auto;
+}
+.petes-image{ 
+    height: 40%;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.project-container{ 
+    width: 100vw;
+    color: #394d55;
+    height: auto;
+    margin-bottom: 28px ;
+}
+
+.project-title{ 
+    font-weight: 300;
+    padding: 16px;
+}
+
+.project-text{ 
+    padding: 16px
+}
+
+.clients-container{ 
+    width: 100%
+}
+
+@media only screen and (min-width: 800px){ 
+    .clients-container{ 
+        margin: 0 auto;
+        width: 70vw
+    }
+    .angels-image{ 
+        height: 100%;
+        width: 60%;
+        float: right;
+        margin: 0 auto;
+        padding: 10px;
+    }
+    .petes-image{ 
+        height: 100%;
+        width: 60%;
+        float: left;
+        margin: 0 auto;
+        padding: 10px;
+    }
+    .project-container{ 
+        width: 80%;
+        color: #394d55;
+        position: relative;
+        height: 400px;
+        margin-bottom: 28px ;
+
+    }
+
+    .project-title{ 
+        font-weight: 300;
+        margin: 16px;
+    }
+}

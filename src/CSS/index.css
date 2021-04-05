@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{ 
+  font-family: 'Raleway', sans-serif;
+  scroll-behavior: smooth;
+
+    margin:0;
+}
+
+
+h1{ 
+  font-family: 'Cabin'; 
+
+}
+
+:root { 
+  --main-font-color: #3E7D98;
+  --main-font-family: 'Raleway', sans-serif;
+}
+
+.logo{ 
+  
+}
+
+
+
+
+#bounce {
+    animation: bounce 2s;
+    animation-iteration-count: infinite;
+  }
+  #bounce-1 {
+    animation: bounce 2s;
+    animation-iteration-count: infinite;
+    animation-delay: .1s;
+  }
+  #bounce-2 {
+    animation: bounce 2s;
+    animation-iteration-count: infinite;
+    animation-delay: .2s;
+  }
+  
+  @keyframes bounce {
+    0%,
+    25%,
+    50%,
+    75%,
+    100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-20px);
+    }
+    60% {
+      transform: translateY(-12px);
+    }
+  }

@@ -1,0 +1,57 @@
+.free-consultation-container{ 
+    background:url('../assets/consultation.jpg');
+    height:500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    width: 100%;
+
+}
+
+.gradient-background-consultation{
+    height: 500px;
+    width: 100%;
+    z-index: 1;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Cabin', sans-serif;
+    justify-content: center;
+    color: whitesmoke;
+    background: linear-gradient(0deg, #00000088 40%, #ffffff44 100%)
+}
+
+.contact-button{ 
+    border-radius: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    font-size: 14px;
+    background-color:#9B6A36;
+    text-align: center;
+    border: none;
+    color: whitesmoke;
+    width: 10rem;
+    height: 2.5rem;
+    font-weight: 800;
+}
+
+.schedule-consultation{ 
+    font-size: 35px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+@media screen and (min-width: 561px){ 
+    .schedule-consultation{ 
+        font-size: 55px;
+        font-weight: 400;
+        padding: 10px;
+    }
+    .free-consultation-container{ 
+        background-position: center;
+    }
+
+}
