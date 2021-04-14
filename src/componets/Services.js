@@ -26,7 +26,7 @@ export default function Services(){
                             <p>After the site is created and hosted we will continue to manage it for you. Any changes that need to be made from new pictures added to new content will be done for no extra charge</p>
                         </div>
                     
-                        <button  className = "learn-more-button">Learn More</button>
+                        {/* <button  className = "learn-more-button">Learn More</button> */}
                     </grid>
                 </div>
             </div>
